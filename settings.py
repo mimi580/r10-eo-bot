@@ -113,18 +113,18 @@ POSITIONAL_MIN_N    = 8        # minimum observations per context
 # Both layers must agree with each other
 LAYER1_REQUIRED     = 2        # of 3
 LAYER2_REQUIRED     = 2        # of 3
-CONFIDENCE_MIN      = 0.55
-TOP_CONF_MIN        = 0.65
+CONFIDENCE_MIN      = 0.71
+TOP_CONF_MIN        = 0.75
 
 # ─────────────────────────────────────────────────────────────────
 # TRADE MANAGEMENT
 # ─────────────────────────────────────────────────────────────────
 FIRST_STAKE         = 0.35
-MARTINGALE_FACTOR   = 1.89
-MARTINGALE_AFTER    = 3        # step up after 3 consecutive losses
+MARTINGALE_FACTOR   = 1.75
+MARTINGALE_AFTER    = 1        # step up after 3 consecutive losses
 MARTINGALE_MAX_STEP = 3
 
-TARGET_PROFIT       = 10.0
+TARGET_PROFIT       = 100.0
 STOP_LOSS           = 20.0
 
 # Short cooldown — digit contracts settle in 5 ticks (~5 seconds)
